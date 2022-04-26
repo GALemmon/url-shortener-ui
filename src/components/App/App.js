@@ -28,7 +28,7 @@ const App = () => {
   return (
     <main className='App'>
       <header>
-        <h1>URL Shortener</h1>
+        <h1 className='title'>URL Shortener</h1>
         <UrlForm postNewUrl={postNewUrl} />
       </header>
       <UrlContainer urls={urls} />
