@@ -3,7 +3,6 @@ import './UrlContainer.css'
 import Card from '../Card/Card'
 
 const UrlContainer = ({ urls }) => {
-  console.log(urls)
   const newUrls = urls.flat()
   const urlEls = newUrls.map((url) => {
     return <Card key={url.id} url={url} />

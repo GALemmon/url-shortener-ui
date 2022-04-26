@@ -27,7 +27,7 @@ class UrlForm extends Component {
     return (
       <form className='form'>
         <input
-        className='title-input'
+          className='title-input'
           type='text'
           placeholder='Title...'
           name='title'
@@ -44,6 +44,7 @@ class UrlForm extends Component {
         />
 
         <button
+          name='submit-button'
           onClick={(e) => {
             this.props.postNewUrl(this.state.urlToShorten, this.state.title)
             this.handleSubmit(e)

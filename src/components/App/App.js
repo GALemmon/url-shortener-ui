@@ -23,8 +23,6 @@ const App = () => {
     postUrl(longUrl, title).then(setCount((previous) => previous + 1))
   }
 
-  console.log('App urls: ', urls)
-
   return (
     <main className='App'>
       <header>
