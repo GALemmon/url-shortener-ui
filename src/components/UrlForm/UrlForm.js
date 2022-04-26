@@ -25,8 +25,9 @@ class UrlForm extends Component {
 
   render() {
     return (
-      <form>
+      <form className='form'>
         <input
+        className='title-input'
           type='text'
           placeholder='Title...'
           name='title'
