@@ -12,16 +12,9 @@ describe('Main page Tests', () => {
       .should('contain', 'URL Shortener')
       .get('.container')
       .children()
-      .should('have.length', 4)
-      .first()
+      .should('have.length', 1)
+      .get('.url')
       .should('contain', 'Awesome photo')
   })
 })
 
-// it('should render the main page', () => {
-//   cy.visit('http://localhost:3000/')
-//     .get('.enter-button')
-//     .click()
-//     .url()
-//     .should('include', '/main')
-// })
