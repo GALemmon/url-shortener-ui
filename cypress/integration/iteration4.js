@@ -16,8 +16,8 @@ describe('Main page Tests', () => {
       .click()
       .get('.container')
       .children()
-      .should('have.length', 4)
-
-
+      .should('have.length', 1)
   })
 })
+
+
